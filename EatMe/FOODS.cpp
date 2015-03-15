@@ -21,6 +21,7 @@ FOODS::FOODS ()
 
 {
     
+    string newName;
     newCalories = 0;
     newServings = 0;
     
@@ -28,9 +29,10 @@ FOODS::FOODS ()
 
 
 
-FOODS::FOODS(double calories, double servings)
+FOODS::FOODS(string name, double calories, double servings)
 
 {
+    string newName = name;
     double newCalories = calories;
     double newServings = servings;
 }

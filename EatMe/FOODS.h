@@ -31,10 +31,11 @@ public:
     
     FOODS(); // CONSTRUCTOR
     
-    FOODS(double, double); // OVERLOAD CONSTRUCTOR
+    FOODS(string, double, double); // OVERLOAD CONSTRUCTOR
     
 private:
     
+    string newName;
     double newCalories;
     double newServings;
     
