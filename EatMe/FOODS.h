@@ -1,16 +1,7 @@
-//
+//FOODS.h
+//EatMe
+//Function declarations...
 
-//  FOODS.h
-
-//  Don't Eat That!
-
-//  Function declarations...
-
-//  Created by ISMD on 3/13/15.
-
-//  Copyright (c) 2015 ISMD. All rights reserved.
-
-//
 
 
 
@@ -32,6 +23,12 @@ public:
     FOODS(); // CONSTRUCTOR
     
     FOODS(string, double, double); // OVERLOAD CONSTRUCTOR
+    
+    ~FOODS(); //DESTRUCTOR
+    
+    string getName();
+    double getCalories();
+    double getServings();
     
 private:
     
