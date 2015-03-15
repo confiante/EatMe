@@ -12,7 +12,6 @@ int main()
     double calories;
     double servings;
     
-    
     cout << "What is your name? \n";
     cin >> name;
     
@@ -20,11 +19,9 @@ int main()
     cin >> calories;
     
     cout << "Here's what you can eat: \n";
-    
-    
+
     
     return 0;
     
-    
-    
+
 }
