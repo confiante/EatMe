@@ -7,7 +7,6 @@
 FOODS::FOODS ()
 
 {
-    string newName;
     newCalories = 0;
     newServings = 0;
 }

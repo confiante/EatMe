@@ -27,7 +27,11 @@ int main()
     cin >> servings;
     
     
-    //FOODS Eater_1();
+    FOODS Eater_1(name, calories, servings);
+    
+    cout << "Client's Name is: " << Eater_1.getName() << endl;
+    cout << "Calories left to eat are" << Eater_1.getCalories() << endl;
+    cout << "Your servings are" << Eater_1.getServings() << endl;
     
     return 0;
     
