@@ -30,3 +30,13 @@ string FOODS::getName() //get name of client
 {
     return newName;
 }
+
+double FOODS::getCalories()
+{
+    return newCalories;
+}
+
+double FOODS::getServings()
+{
+    return newServings;
+}

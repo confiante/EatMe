@@ -26,10 +26,11 @@ public:
     
     ~FOODS(); //DESTRUCTOR
     
-    string getName();
+    string getName(); //TO GET NAME OF PERSON
     double getCalories();
     double getServings();
     
+
 private:
     
     string newName;
