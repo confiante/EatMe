@@ -4,8 +4,6 @@
 
 
 
-
-
 #include <iostream>
 #include <string>
 
@@ -21,9 +19,7 @@ class FOODS
 public:
     
     FOODS(); // CONSTRUCTOR
-    
     FOODS(string, double, double); // OVERLOAD CONSTRUCTOR
-    
     ~FOODS(); //DESTRUCTOR
     
     string getName(); //TO GET NAME OF PERSON

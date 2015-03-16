@@ -3,6 +3,7 @@
 //Function declarations...
 
 #include <iostream>
+#include <string>
 #include "FOODS.h"
 
 using namespace std;
@@ -21,7 +22,7 @@ int main()
     cout << "How many calories do you have left to eat for the day? \n";
     cin >> calories;
     
-    cout << "Here's what you can eat: \n";
+   // cout << "Here's what you can eat: \n";
     
     cout << "How many servings would you like?";
     cin >> servings;
